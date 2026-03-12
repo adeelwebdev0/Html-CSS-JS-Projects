@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #9fd3ff, #8ed1b2);
+  height: 100vh;
+}
+.quote-container {
+  text-align: center;
+  width: 400px;
+  background-color: #fff;
+  font-family: sans-serif;
+}
+.paraaa {
+  background-color: rgba(41, 93, 46, 0.925);
+  padding: 8px;
+  color: white;
+  font-weight: bold;
+}
+.context {
+  width: 22rem;
+  text-align: center;
+}
+.para {
+  background-color: #fff;
+  padding: 60px 60px;
+  text-align: center;
+  /* width: 300px; */
+}
+.author {
+  margin-top: 19px;
+  color: #323131de;
+  font-weight: bold;
+}
+.Quote-generator {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 7px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(6, 41, 213, 0.834);
+  color: white;
+  width: 10rem;
+}

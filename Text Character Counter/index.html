@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Counter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="text-container">
+      <div class="content">
+        <h2 class="cc-h2">Character Counter!</h2>
+        <div>
+          <textarea
+            id="textArea"
+            cols="46"
+            rows="13"
+            placeholder="Type your text here...."
+            maxlength="500"
+          ></textarea>
+          <span class="txt-limiter">0/500</span>
+        </div>
+        <div class="btns-container">
+          <div class="words">
+            <p>Characters</p>
+            <span class="counter">0</span>
+          </div>
+          <div class="words">
+            <p>Words</p>
+            <span class="Counter">0</span>
+          </div>
+          <div><button class="clear-btns" id="clear">Clear</button></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

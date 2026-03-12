@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  transition: 0.4s;
+}
+
+.dark-coantainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.content {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 700;
+  line-height: 40px;
+  border: 2px solid gray;
+  padding: 60px;
+}
+
+#darkMode {
+  padding: 10px 25px;
+  position: relative;
+  border-radius: 5px;
+  border: none;
+  background-color: gray;
+}
+.fa-moon {
+  position: absolute;
+  top: 349px;
+  left: 585px;
+  z-index: 1;
+}
+.dark-theme {
+  background: black;
+  color: white;
+}

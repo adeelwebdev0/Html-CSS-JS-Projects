@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: grey;
+}
+.sect-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  gap: 20px;
+}
+
+.left-arrow,
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.left-arrow {
+  left: -60px;
+  font-size: 29px;
+}
+
+.right-arrow {
+  right: -60px;
+  font-size: 29px;
+}
+.frame {
+  position: relative;
+  width: 290px;
+  height: 290px;
+  overflow: hidden;
+}
+
+.images {
+  width: 290px;
+  height: 290px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: none;
+  flex-shrink: 0;
+}
+.slider {
+  display: flex;
+  transition: 1.1s ease;
+}

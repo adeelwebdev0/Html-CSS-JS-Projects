@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.context {
+  box-shadow: rgba(104, 102, 102, 35) 0px 5px 15px;
+  border: 1px solid rgb(176, 172, 172);
+  text-align: center;
+  border-radius: 10px;
+  padding: 85px 50px;
+}
+.paraa {
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: xx-large;
+  color: rgb(44, 43, 43);
+}
+
+hr {
+  border: none;
+  height: 2px;
+  width: 420px;
+  background-color: rgb(161, 157, 157);
+}
+.counting-numbers {
+  font-size: 90px;
+  font-weight: bolder;
+  font-family: sans-serif;
+  /* text-align: center; */
+  margin-bottom: 40px;
+}
+.btns-container {
+  margin-top: 30px;
+}
+.Decrement {
+  padding: 10px 32px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: rgba(255, 0, 0, 0.864);
+  cursor: pointer;
+  outline: none;
+}
+.Reset {
+  padding: 10px 32px;
+  border-radius: 6px;
+  border: none;
+  color: rgb(50, 49, 49);
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: rgba(190, 187, 187, 0.864);
+  cursor: pointer;
+  outline: none;
+}
+.Increment {
+  padding: 10px 32px;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: green;
+  cursor: pointer;
+  outline: none;
+}
