@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.sect-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  border: 2px solid wheat;
+  padding: 150px 90px;
+  line-height: 35px;
+  font-family: sans-serif;
+}
+.usd {
+  outline: none;
+  background-color: whitesmoke;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.num {
+  margin-top: 2px;
+  height: 30px;
+  width: 50px;
+}
+.euro {
+  background-color: whitesmoke;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.num {
+  outline: none;
+  margin-top: 2px;
+  height: 30px;
+  width: 50px;
+}
